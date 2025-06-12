@@ -1,4 +1,13 @@
 # Pratham Shah Taskphase repo for the Cryptonite Research Subsystem
 
-Please refer to the relevant folders for the respective dataset models. I have shown my workflow in detail in all the models, and added further info
-about EDA and feature engineering to the LSTM in the electricity task and the hierarchical classifier in the heart task.
+Heart Dataset:
+1. Linear Regression
+2. vanilla Logistic Regression
+3. Hierarchichal classification using cross val and multiple models - winner.
+
+Electricity Dataset:
+1. LSTM
+2. XGBoost - winner.
+3. RandomForestRegressor
+
+Because the EDA and feature engineering are same for all the files, I have commented their details majorly in the LSTM file for electricity and the Hierarchical classifier in the heart dataset.
