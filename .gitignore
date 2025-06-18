@@ -3,3 +3,5 @@ household_power_consumption.txt
 FacialExpressions/images
 Fashion/fashion-mnist_train.csv
 Fashion/fashion-mnist_test.csv
+DeepWeeds/images
+DeepWeeds/labels
