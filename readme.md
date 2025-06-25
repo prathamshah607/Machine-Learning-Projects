@@ -36,3 +36,9 @@ Facial Expressions:
 - Model saving at ideal weights and loading for evaluation
 - Dealing with high class imbalance elegantly
 - Delivers 67% test accuracy and 74% train accuracy (best values, slight but controlled overfit)
+
+Imagenet100:
+- ResNet50 Transfer learner + dense layers achieve ballpark standard 86% accuracy
+- Great balanced f1, precision, recall and MCC scores
+- Top3 accuracy jumps to 99-96%, showing richness in feature detection
+- misclassifications are usually between semantically similar classes (eg. types of sharks)
