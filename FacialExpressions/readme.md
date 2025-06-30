@@ -100,19 +100,21 @@ Training was in two phases:
 | Sad       | 0.56     | 0.51  | 0.53    |
 | Surprise  | 0.71     | 0.85  | 0.77    |
 
+![image](https://github.com/user-attachments/assets/fac1bae2-4adc-4903-af98-dae29a0ac8bd)
+![image](https://github.com/user-attachments/assets/8dbec29f-30e2-474d-ab4c-7495f6649cf0)
+![image](https://github.com/user-attachments/assets/9b0f4a24-1e1b-411e-a4e3-5f8ca16562a5)
+
 ---
 
 ## Misclassification Insights
 
 - `happy`, `surprise`, and `disgust` were consistently predicted with high confidence.
 - `fear`, `sad`, and `angry` were frequently confused with `neutral`.
-- Class imbalance remains a challenge, though mitigated via weighting and augmentation.
+- Class imbalance is mitigated via weighting and augmentation.
 
----
+![image](https://github.com/user-attachments/assets/667532f7-f5d0-413c-bc93-d59e8789325e)
+![image](https://github.com/user-attachments/assets/27abe7c4-de50-4e63-afec-d4d6f2f20b5a)
 
-![image](https://github.com/user-attachments/assets/fac1bae2-4adc-4903-af98-dae29a0ac8bd)
-![image](https://github.com/user-attachments/assets/8dbec29f-30e2-474d-ab4c-7495f6649cf0)
-![image](https://github.com/user-attachments/assets/9b0f4a24-1e1b-411e-a4e3-5f8ca16562a5)
 
 ---
 
