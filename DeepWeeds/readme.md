@@ -32,7 +32,22 @@ The task is to perform multi-class classification of weed species from RGB image
      - `ReduceLROnPlateau(factor=0.5, patience=3, min_lr=1e-5)`
 5. **Evaluation**: Final scores computed on test subset 0 (after full training)
 
+![image](https://github.com/user-attachments/assets/c6c29c98-f5b9-43f5-82f2-7eb8c1bc77e4)
+
+
 ## Results
+
+On the Test subset 0:
+
+| Metric                  | Value      |
+|------------------------|------------|
+| Accuracy          | 98.97%      |
+| Weighted F1 Score          | 0.9895      |
+| Weighted Precision         | 0.9898      |
+| Weighted Recall            | 0.9879      |
+| Log Loss                | 0.03139      |
+| Matthews Corr. Coef.    | 0.9853      |
+| ROC-AUC (avg)     | 1.00      |
 
 | Class           | Precision | Recall | F1 Score |
 |----------------|-----------|--------|----------|
@@ -44,16 +59,10 @@ The task is to perform multi-class classification of weed species from RGB image
 | Rubber Vine    | 0.99      | 0.99   | 0.99     |
 | Siam Weed      | 0.98      | 1.00   | 0.99     |
 | Snake Weed     | 0.99      | 0.87   | 0.92     |
-| Negative       | 0.99      | 1.00   | 1.00     |\
+| Negative       | 0.99      | 1.00   | 1.00     |
 
-## Advanced Metrics
+![image](https://github.com/user-attachments/assets/4da6fbae-bf44-4f5c-a2fb-1b5ac7132c60)
 
-- Matthew's Correlation Coefficient : 0.9853786598686737
-- Accuracy : 0.9897348160821214
-- f1 score : 0.9895004705151638
-- Log loss : 0.031397308146750874
-- Recall : 0.9897348160821214
-- Precision : 0.9897902798924548
 
 ---
 
@@ -62,6 +71,9 @@ The task is to perform multi-class classification of weed species from RGB image
 - **Snake Weed** consistently showed the lowest recall (87%), likely due to visual overlap with surrounding vegetation and Siam Weed.
 - **Negative** class maintained strong scores, proving the model distinguishes real weeds from background foliage well.
 - All other classes hovered between 98-100% F1, suggesting the model generalizes very effectively despite natural image noise and imbalance.
+
+![image](https://github.com/user-attachments/assets/570b0612-7920-4616-974b-f791874a61fe)
+
 
 ---
 
