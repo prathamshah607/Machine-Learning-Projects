@@ -132,21 +132,8 @@ without ensembling, external data, or hyperparameter grid search.
 
 - **Framework**: TensorFlow / Keras
 - **Hardware**: Kaggle Notebook (P100 GPU)
-- **Notebook**: [`model_interpretation.ipynb`](./model_interpretation.ipynb)
+- **Notebook**: [model_interpretation.ipynb](./model_interpretation.ipynb) for inference, [actual.ipynb](./actual.ipynb) for training
 - **Author**: Pratham Shah  
 - **ID**: 240905614  
 - **Task**: Cryptonite Research Taskphase
-
-
-
-## Conclusion & Takeaways
-- This model delivers **human-comparable accuracy** on a tough problem.
-- Careful regularization and augmentation made the difference.
-- Despite limitations (no ensemble, small grayscale images), the model generalizes well.
-
-## Appendix
-- **Trained in**: TensorFlow / Keras
-- **Hardware**: P100 GPU-backed runtime, Kaggle
-- **Notebook**: [`model_interpretation.ipynb`](./model_interpretation.ipynb)
-- **Implemented by**: Pratham Shah, 240905614, for Cryptonite Research Taskphase
 
