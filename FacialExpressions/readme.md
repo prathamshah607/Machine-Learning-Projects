@@ -18,8 +18,7 @@ Despite the limitations, this problem has valuable real-world implications in:
 
 - Healthcare and mental state monitoring  
 - Surveillance and crowd analysis  
-- Affective computing and interactive systems  
-- Human-Computer Interaction (HCI)
+- Human-Computer Interaction
 
 ---
 
@@ -27,8 +26,8 @@ Despite the limitations, this problem has valuable real-world implications in:
 
 - **Source**: FER2013 (Kaggle)
 - **Classes**: 7 — `angry`, `disgust`, `fear`, `happy`, `neutral`, `sad`, `surprise`
-- **Training Images**: 28,709  
-- **Validation Images**: 7,166  
+- **Training Images**: 20,179  
+- **Validation Images**: 2,117  
 - **Image Resolution**: 48x48 grayscale (upsampled ×3 → 224x224 RGB)
 
 ### Preprocessing
