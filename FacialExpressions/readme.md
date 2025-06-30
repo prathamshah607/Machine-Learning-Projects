@@ -111,8 +111,11 @@ Training was in two phases:
 - `happy`, `surprise`, and `disgust` were consistently predicted with high confidence.
 - `fear`, `sad`, and `angry` were frequently confused with `neutral`.
 - Class imbalance is mitigated via weighting and augmentation.
-
+- 
 ![image](https://github.com/user-attachments/assets/667532f7-f5d0-413c-bc93-d59e8789325e)
+
+- Some misclassification between semantically similar features is expected, since the facial structure is indistinguishable.
+
 ![image](https://github.com/user-attachments/assets/27abe7c4-de50-4e63-afec-d4d6f2f20b5a)
 
 
