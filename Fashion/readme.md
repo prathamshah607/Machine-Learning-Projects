@@ -83,6 +83,8 @@ The model was compiled with **Adam** optimizer and **categorical crossentropy** 
 
 **Macro and weighted average**: Precision 0.93, Recall 0.93, F1-score 0.93
 
+Note: The rows are the actual labels, the columns the predicted labels.
+
 ![image](https://github.com/user-attachments/assets/ab80a057-8269-44b2-814a-1f184a02aa45)
 
 ![image](https://github.com/user-attachments/assets/a43d716a-099c-40d8-9536-71547a33b30f)
