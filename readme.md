@@ -37,7 +37,7 @@ Because the EDA and feature engineering are same for all the files, I have comme
 - Very protective overfitting and regularisation methods `(Early stopping, LR reduction at plateau, dropout)`
 - Model saving at ideal weights and loading for evaluation
 - Dealing with high class imbalance elegantly
-- Delivers 67% test accuracy and 74% train accuracy (best values, slight but controlled overfit)
+- Delivers ***92% Top-3*** accuracy, 67% test accuracy and 74% train accuracy (best values, slight but controlled overfit)
 
 **Imagenet100:**
 - ResNet50 Transfer learner + dense layers achieve ballpark standard 86% accuracy
