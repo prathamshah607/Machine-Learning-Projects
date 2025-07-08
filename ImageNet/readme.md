@@ -61,8 +61,10 @@ This task presents:
    - Epochs: 12
    - Trained on Kaggle GPU environment
 
-### Why ResNet50?
-
+### Why EfficientNetV2S?
+- It handles feature scaling, depth scaling and resolution in a predetermined way
+- It is suitable for a 100 image classification subset of ImageNet
+- It is a lightweight upgraded version of the tried and tested EfficientNet, using upgraded Fused-MBConv layers and 40 convolutional layers rather than the original's 16
 
 ## Evaluation & Results
 
