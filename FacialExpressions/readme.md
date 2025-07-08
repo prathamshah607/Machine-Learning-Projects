@@ -52,7 +52,11 @@ Despite the limitations, this problem has valuable real-world implications in:
 
 ## Why EfficientNet?
 
-I chose EfficientNet because:
+I chose EfficientNetB0 because:
+- It handles depth, width and resolution scaling independently
+- It optimises the amount of parameters and compute needed for maximum efficiency (B0 is the lightest model with a, b, gammma = 1.2, 1.1, 1.15)
+- It has already predefined numbers of channels, resolution scaling and depth
+- It is empirically proven to offer the maximum results on this dataset
 
 ---
 
