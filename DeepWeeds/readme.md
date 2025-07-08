@@ -77,7 +77,12 @@ On the Test subset 0:
 
 ---
 
-## Why ResNet50
+## Why ResNet50 with ImageNet
+- Extremely rich feature detection through 50 convolutional layers
+- Already good at discriminating against ImageNet plants species, it can adapt well to DeepWeeds if further tuned
+- Very deep model which allows for extremely niche feature detection and classification
+- Its use of skip connections and residual blocks focusses on value addition and does not fall into the vanishing/exploding gradient problem
+- Its results go beyond traditional models to acheive SOTA accuracy
 
 ---
 
