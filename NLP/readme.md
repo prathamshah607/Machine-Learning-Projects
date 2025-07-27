@@ -44,4 +44,8 @@ Prepare a well-structured research report including:
 1. Title and Research Area: Clearly define the domain/topic you're focusing on.
 2. Background: Provide a brief introduction and motivation for the problem.
 3. Related Work: Summarize at least 3–4 relevant research papers you've studied.
-4. Identified Gap: Highlight the limitations or
+4. Identified Gap: Highlight the limitations or gaps in current literature.
+5. Proposed Direction: Describe your proposed idea, method, or approach.
+6. Next Steps: How you plan to proceed (implementation, experimentation, etc.)
+
+Submit your report as a PDF, docx, latex or markdown. Latex is preferred.
