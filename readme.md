@@ -1,4 +1,4 @@
-# Pratham Shah Taskphase repo for the Cryptonite Research Subsystem
+# Cryptonite Research AI Subsystem Taskphase by Pratham Shah
 
 ## Task 1:
 
@@ -44,3 +44,29 @@ Because the EDA and feature engineering are same for all the files, I have comme
 - Great balanced f1, precision, recall and MCC scores
 - Top3 accuracy jumps to 99-96%, showing richness in feature detection
 - misclassifications are usually between semantically similar classes (eg. types of sharks)
+
+
+___
+
+## Task 3:
+
+Specialisation, Model and Reports on Natural Language Processing:
+
+### Specialisation:
+The Coursera specialisation certificates can be found in NLP/Certifications
+
+### Model:
+The BERT Encoder model achieves near-state of the art performance. It is inside the NLP/Projects subdirectory.
+
+The projects subdirectory also consists of 
+- tokenizers,
+- word embedding generators, and
+- a Wikipedia based RAG application.
+
+### Reports:
+
+The reports for Attention, BERT and RAGs are present as pdf files in the NLP/Reports subdirectory.
+
+
+
+
