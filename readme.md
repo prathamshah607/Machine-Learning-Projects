@@ -52,10 +52,10 @@ ___
 
 Specialisation, Model and Reports on Natural Language Processing:
 
-## Specialisation:
+### Specialisation:
 The Coursera specialisation certificates can be found in NLP/Certifications
 
-## Model:
+### Model:
 The BERT Encoder model achieves near-state of the art performance. It is inside the NLP/Projects subdirectory.
 
 The projects subdirectory also consists of 
@@ -63,7 +63,7 @@ The projects subdirectory also consists of
 - word embedding generators, and
 - a Wikipedia based RAG application.
 
-## Reports:
+### Reports:
 
 The reports for Attention, BERT and RAGs are present as pdf files in the NLP/Reports subdirectory.
 
