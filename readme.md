@@ -1,4 +1,4 @@
-# Pratham Shah's Taskphase for the Cryptonite Research AI Subsystem
+# Cryptonite Research AI Subsystem Taskphase by Pratham Shah
 
 ## Task 1:
 
