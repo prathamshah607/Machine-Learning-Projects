@@ -56,7 +56,7 @@ Specialisation, Model and Reports on Natural Language Processing:
 The Coursera specialisation certificates can be found in NLP/Certifications
 
 ### Model:
-The BERT Encoder model achieves near-state of the art performance. It is inside the NLP/Projects subdirectory.
+The BERT and RoBERTa Large Encoder models achieve near-state of the art performance. They are inside the NLP/Projects subdirectory.
 
 The projects subdirectory also consists of 
 - tokenizers,
