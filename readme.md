@@ -58,10 +58,39 @@ The Coursera specialisation certificates can be found in NLP/Certifications
 ### Model:
 The BERT and RoBERTa Large Encoder models achieve near-state of the art performance. They are inside the NLP/Projects subdirectory.
 
+RoBERTa:
+| Metric                | Train Score       | Test Score        |
+|-----------------------|-------------------|-------------------|
+| Eval Loss             | 0.03287           | 0.11486           |
+| Eval Precision        | 95.93%            | 91.97%            |
+| Eval Recall           | 96.60%            | 92.96%            |
+| Eval F1               | 96.26%            | 92.46%            |
+| Eval Runtime (sec)    | 41.39             | 43.80             |
+| Samples per Second    | 83.75             | 84.11             |
+| Steps per Second      | 2.63              | 2.65              |
+| Epoch                 | 5.0               | 5.0               |
+
+BERT:
+| Metric                | Train Score      | Test Score       |
+|-----------------------|------------------|------------------|
+| Eval Loss             | 0.03397          | 0.10361          |
+| Eval Precision        | 95.559%          | 91.475%          |
+| Eval Recall           | 96.191%          | 92.677%          |
+| Eval F1               | 95.862%          | 92.046%          |
+| Eval Runtime (sec)    | 40.69            | 43.14            |
+| Samples per Second    | 85.18            | 85.39            |
+| Steps per Second      | 2.68             | 2.69             |
+| Epoch                 | 5.0              | 5.0              |
+
 The projects subdirectory also consists of 
 - tokenizers,
 - word embedding generators, and
-- a Wikipedia based RAG application.
+- a Wikipedia based RAG application:
+
+The RAG model is able to answer simple factual questions:
+eg. "what is the total land area of New York City?":
+answer:  The borough-wide total land area of New York City amounts to approximately 302.6 square miles (784 km²). This includes all five boroughs combined, with each one coextensive with its respective county in terms of administrative boundaries within the city's municipal limits.
+
 
 ### Reports:
 
