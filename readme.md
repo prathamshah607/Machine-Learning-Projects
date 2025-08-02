@@ -85,7 +85,12 @@ BERT:
 The projects subdirectory also consists of 
 - tokenizers,
 - word embedding generators, and
-- a Wikipedia based RAG application.
+- a Wikipedia based RAG application:
+
+The RAG model is able to answer simple factual questions:
+eg. "what is the total land area of New York City?":
+answer:  The borough-wide total land area of New York City amounts to approximately 302.6 square miles (784 km²). This includes all five boroughs combined, with each one coextensive with its respective county in terms of administrative boundaries within the city's municipal limits.
+
 
 ### Reports:
 
