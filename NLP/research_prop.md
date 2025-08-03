@@ -1,4 +1,4 @@
-# Contextual Semantics Across Languages: Understanding Word Meaning in Multilingual Embedding Spaces
+# Contextual Semantics Across Languages: Understanding Word Meaning in Multilingual Embedding Spaces  
 **Cryptonite NLP Research Taskphase**  
 **Pratham Shah**  
 **ID: 240905614**
@@ -7,87 +7,124 @@
 
 ## Motivation
 
-Word meaning changes based on linguistic and cultural context. Contextual embeddings like BERT have improved how models capture this dynamic nature. However, the question of how meaning shifts across contexts and languages remains under-explored. 
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/156f6c87-ab5f-4a4e-bb97-8b590ff38248" />
 
-This project focuses on investigating how specific words vary in meaning depending on usage and linguistic background, with emphasis on polysemy and cultural interpretation.
+
+Word meaning is not fixed. It varies with context, speaker intent, and cultural background. Contextual embedding models like BERT and its multilingual variants have significantly improved the way language models interpret meaning within a given sentence. However, how these meanings shift across languages and cultures is still not fully understood.
+
+This project focuses on the problem of semantic variation across languages, especially in multilingual models. It aims to study how certain words—particularly those that are polysemous or culturally significant—change their meaning depending on the language and context in which they appear. Understanding these shifts can help reveal how well multilingual models capture real-world language use, and where they fall short.
 
 ---
 
 ## Related Work
 
-Recent work on contextual word representations demonstrates that modern models can adjust word meaning based on sentence context. Multilingual models aim to align semantic spaces across languages.
+Contextual word embeddings have transformed NLP by modeling how meaning is influenced by context. Models like BERT, RoBERTa, and their multilingual counterparts (e.g., XLM-R, mBERT) can dynamically adjust word representations based on surrounding words. Multilingual models aim to map semantically similar words across languages to similar regions in embedding space.
 
-Despite this, very few studies show how words behave when used in different contexts and across languages. There is little research into how culturally sensitive words drift semantically in these embedding spaces.
+Some key papers that form the foundation for this work include:
+
+1. **Devlin et al. (2019)** – *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*  
+   [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)  
+   Introduced BERT, showing how deep contextual embeddings can be learned through unsupervised pretraining.
+
+2. **Conneau et al. (2020)** – *Unsupervised Cross-lingual Representation Learning at Scale*  
+   [https://arxiv.org/abs/1911.02116](https://arxiv.org/abs/1911.02116)  
+   Proposed XLM-R, a robust multilingual transformer model trained on 100+ languages.
+
+3. **Chakravarti & Gonen (2023)** – *Understanding Cross-Lingual Semantic Shift with Contextualized Word Representations*  
+   [https://arxiv.org/abs/2302.04127](https://arxiv.org/abs/2302.04127)  
+   Examines how multilingual models capture meaning shifts and alignment challenges in cross-lingual settings.
+
+Despite such advances, there remains limited analysis of cultural and contextual shifts in meaning, especially for abstract or socially complex terms.
 
 ---
 
 ## Research Gap
 
-Current multilingual models assume static linguistic equivalence. This fails for polysemous or socio-culturally nuanced words. There is not enough understanding of:
+<img width="585" height="421" alt="image" src="https://github.com/user-attachments/assets/62c321d5-d1c1-4cd6-baf1-ea3d89d4de00" />
 
-- How the same word changes its meaning across contexts.
-- How different languages encode the same concept.
-- The extent to which embeddings are modified based on cultural semantics.
+Current multilingual models rely heavily on the assumption that words with similar translations have equivalent meanings across languages. This often breaks down in practice due to:
+
+- **Polysemy**: Words with multiple senses depending on context (e.g., *court* in sports vs. law).
+- **Cultural nuance**: Words that carry different associations in different societies (e.g., *freedom*, *karma*, *family*).
+- **Contextual variation**: Words whose meaning changes depending on syntax, register, or domain.
+
+There is a lack of focused research on how such words behave in multilingual embedding spaces. Most evaluations don’t test how these embeddings respond to cultural or contextual shifts.
 
 ---
 
 ## Research Direction
 
 ### Goal
-Investigate and report how word meanings vary with context and language in multilingual embedding models.
+
+To analyze how the meanings of words vary across different contexts and languages using multilingual contextual embeddings.
 
 ### Objectives
 
-1. Determine semantic drift of target words across contexts and languages.
-2. Compare cross-lingual embeddings of culturally significant terms.
-3. Visualize semantic shifts.
-4. Identify patterns in divergence for specific word types (e.g., emotions, social roles).
+1. Measure how specific words shift in meaning across contexts and languages.
+2. Compare embeddings of culturally sensitive terms across multiple languages.
+3. Visualize these semantic shifts using projection and clustering methods.
+4. Identify patterns of divergence for emotion terms, social roles, and abstract values.
 
 ---
 
 ## Methodology
 
-### Data
+### Languages and Data
 
-- **Languages**: English, Hindi, French, Spanish  
-- **Sources**: Wikipedia, OpenSubtitles, other corpora
+- **Languages**: English, Hindi, French, Spanish.
+- **Sources**:
+  - Wikipedia (formal/encyclopedic)
+  - OpenSubtitles (informal/dialog-based)
+  - Domain-specific corpora (cultural, social, or religious contexts)
 
-### Embeddings
+### Embedding Models
 
-- **Models**: XLM-R (Trained on 100+ languages), LaBSE (Language-agnostic sentence encoder)  
-- **Tools**: HuggingFace Transformers for tokenization and embedding extraction
+- **XLM-R**: A multilingual transformer model trained on 100+ languages.
+- **LaBSE**: A sentence embedding model designed for language-agnostic semantic similarity.
+
+**Implementation**: HuggingFace Transformers for tokenization and embedding extraction.
 
 ### Analysis Techniques
 
-- Nearest neighbor tracking to analyze local semantic space
-- UMAP / t-SNE for visualization of contextual embeddings (after PCA)
-- Semantic axis projections (e.g., sentiment, formality)
+- **Nearest Neighbor Analysis**: Track semantically closest words in embedding space.
+- **Dimensionality Reduction**: Use PCA + UMAP/t-SNE for 2D or 3D visualization of embeddings.
+- **Semantic Axes Projection**: Create abstract dimensions (e.g., sentiment, formality) and project embeddings accordingly.
+- **Cross-Lingual Anchoring**: Align embeddings of translated terms across languages to detect divergence.
 
 ### Evaluation Metrics
 
-- Visualization of clustered spaces
-- Cosine / Jaccard similarity and other semantic drift measures
-- Clustering entropy for polysemy estimation
+- **Cosine Similarity**: Measure embedding closeness.
+- **Jaccard Similarity**: Assess overlap in top-k nearest neighbors.
+- **Clustering Entropy**: Evaluate how distinctly senses are separated in context.
+- **Qualitative Inspection**: Manually analyze selected examples for interpretability and cultural fidelity.
 
 ---
 
-## Scheduled Timeline
+## Timeline
 
-| Week | Tasks                             |
-|------|------------------------------------|
-| 2    | Literature review, data collection |
-| 4    | Embedding extraction               |
-| 5    | Visualization                      |
-| 6    | Cross-lingual divergence tests     |
-| 7    | Documentation                      |
-| 8    | Final report                       |
+| Week | Task Description                             |
+|------|-----------------------------------------------|
+| 1–2  | Literature review, finalize datasets          |
+| 3–4  | Embedding extraction and preprocessing        |
+| 5    | Initial visualizations and semantic tracking  |
+| 6    | Cross-lingual comparison and analysis         |
+| 7    | Documentation and result synthesis            |
+| 8    | Final report writing and project submission   |
 
 ---
 
 ## Potential Impact
 
-This research will improve understanding of how language models interpret semantics across cultures and contexts. It may contribute to enhancements in multilingual NLP applications, including:
+<img width="550" height="293" alt="image" src="https://github.com/user-attachments/assets/e0b4e2f3-74b4-49c1-800c-04dbafc344a5" />
 
-- Machine translation systems  
-- Conversational agents  
-- Cross-lingual information retrieval and search engines
+This research aims to improve understanding of how multilingual language models capture meaning variation across contexts and cultures. It could contribute to:
+
+- **Better machine translation**: Especially for ambiguous or culturally nuanced terms.
+- **More accurate multilingual chatbots and assistants**: By grounding responses in context.
+- **Cross-lingual search engines**: With deeper semantic awareness.
+- **Language learning tools**: That reflect real-world usage and meaning shifts.
+
+By identifying limitations and patterns in current models, the project will help inform the design of future language technologies that are more context-aware, culturally adaptive, and semantically robust.
+
+---
+
