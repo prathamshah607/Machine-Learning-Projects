@@ -3,6 +3,9 @@
 **Pratham Shah**  
 **ID: 240905614**
 
+<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/156f6c87-ab5f-4a4e-bb97-8b590ff38248" />
+
+
 ---
 
 ## Motivation
@@ -10,17 +13,17 @@
 <img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/156f6c87-ab5f-4a4e-bb97-8b590ff38248" />
 
 
-Word meaning is not fixed. It varies with context, speaker intent, and cultural background. Contextual embedding models like BERT and its multilingual variants have significantly improved the way language models interpret meaning within a given sentence. However, how these meanings shift across languages and cultures is still not fully understood.
+Word meaning is not fixed. It varies with context, speaker intent and cultural background. Contextual embedding models like BERT and its multilingual variants have improved the way language models find meaning within a given sentence. However, how these meanings shift across languages and cultures is still not fully understood.
 
-This project focuses on the problem of semantic variation across languages, especially in multilingual models. It aims to study how certain words—particularly those that are polysemous or culturally significant—change their meaning depending on the language and context in which they appear. Understanding these shifts can help reveal how well multilingual models capture real-world language use, and where they fall short.
+This project focuses on semantic variation across languages, especially in multilingual models. It aims to study how certain words, particularly polysemous or culturally significant ones, change their meaning depending on language and context. Understanding these shifts can help reveal how well multilingual models capture real-world language use, and where they fall short. It can also help humankind better understand our history and surroundings through language.
 
 ---
 
 ## Related Work
 
-Contextual word embeddings have transformed NLP by modeling how meaning is influenced by context. Models like BERT, RoBERTa, and their multilingual counterparts (e.g., XLM-R, mBERT) can dynamically adjust word representations based on surrounding words. Multilingual models aim to map semantically similar words across languages to similar regions in embedding space.
+Contextual word embeddings model how meaning is influenced by context. Models like BERT, RoBERTa, and their multilingual counterparts (eg XLM-R, mBERT) can adjust word representations based on surrounding words. Multilingual models aim to map semantically similar words across languages to similar regions in embedding space.
 
-Some key papers that form the foundation for this work include:
+Some foundational papers for this include:
 
 1. **Devlin et al. (2019)** – *BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding*  
    [https://arxiv.org/abs/1810.04805](https://arxiv.org/abs/1810.04805)  
@@ -42,13 +45,13 @@ Despite such advances, there remains limited analysis of cultural and contextual
 
 <img width="585" height="421" alt="image" src="https://github.com/user-attachments/assets/62c321d5-d1c1-4cd6-baf1-ea3d89d4de00" />
 
-Current multilingual models rely heavily on the assumption that words with similar translations have equivalent meanings across languages. This often breaks down in practice due to:
+Current multilingual models rely on the assumption that words with similar translations have equivalent meanings across languages. This breaks down in practice due to:
 
-- **Polysemy**: Words with multiple senses depending on context (e.g., *court* in sports vs. law).
-- **Cultural nuance**: Words that carry different associations in different societies (e.g., *freedom*, *karma*, *family*).
-- **Contextual variation**: Words whose meaning changes depending on syntax, register, or domain.
+- **Polysemy**: Words with multiple senses depending on context (eg. court in sports vs. law).
+- **Cultural nuance**: Words that carry different associations in different societies (eg. *freedom*, *karma*, *family*).
+- **Contextual variation**: Words whose meaning changes depending on syntax, register or domain.
 
-There is a lack of focused research on how such words behave in multilingual embedding spaces. Most evaluations don’t test how these embeddings respond to cultural or contextual shifts.
+There is a lack of research on how such words behave in multilingual embedding spaces. Most evaluations don’t test how these embeddings respond to cultural or contextual shifts.
 
 ---
 
@@ -73,9 +76,9 @@ To analyze how the meanings of words vary across different contexts and language
 
 - **Languages**: English, Hindi, French, Spanish.
 - **Sources**:
-  - Wikipedia (formal/encyclopedic)
-  - OpenSubtitles (informal/dialog-based)
-  - Domain-specific corpora (cultural, social, or religious contexts)
+  - Wikipedia (formal / encyclopedic)
+  - OpenSubtitles (informal / dialog-based)
+  - Domain-specific corpora (cultural, social or religious contexts)
 
 ### Embedding Models
 
@@ -88,7 +91,7 @@ To analyze how the meanings of words vary across different contexts and language
 
 - **Nearest Neighbor Analysis**: Track semantically closest words in embedding space.
 - **Dimensionality Reduction**: Use PCA + UMAP/t-SNE for 2D or 3D visualization of embeddings.
-- **Semantic Axes Projection**: Create abstract dimensions (e.g., sentiment, formality) and project embeddings accordingly.
+- **Semantic Axes Projection**: Create abstract dimensions (eg. sentiment, formality) and project embeddings accordingly.
 - **Cross-Lingual Anchoring**: Align embeddings of translated terms across languages to detect divergence.
 
 ### Evaluation Metrics
@@ -124,7 +127,5 @@ This research aims to improve understanding of how multilingual language models 
 - **Cross-lingual search engines**: With deeper semantic awareness.
 - **Language learning tools**: That reflect real-world usage and meaning shifts.
 
-By identifying limitations and patterns in current models, the project will help inform the design of future language technologies that are more context-aware, culturally adaptive, and semantically robust.
-
----
+By identifying limitations and patterns in current models, the project will help inform the design of future language technologies that are more context-aware, culturally adaptive, and robust. The analysis of these embeddings, derived from history and culture, will also draw appreciation for how each nation understands words and their emotions differently, and how our context affects our language.
 
