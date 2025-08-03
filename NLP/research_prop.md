@@ -3,9 +3,6 @@
 **Pratham Shah**  
 **ID: 240905614**
 
-<img width="600" height="380" alt="image" src="https://github.com/user-attachments/assets/156f6c87-ab5f-4a4e-bb97-8b590ff38248" />
-
-
 ---
 
 ## Motivation
