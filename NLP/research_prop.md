@@ -12,7 +12,7 @@
 
 Word meaning is not fixed. It varies with context, speaker intent and cultural background. Contextual embedding models like BERT and its multilingual variants have improved the way language models find meaning within a given sentence. However, how these meanings shift across languages and cultures is still not fully understood.
 
-This project focuses on semantic variation across languages, especially in multilingual models. It aims to study how certain words, particularly polysemous or culturally significant ones, change their meaning depending on language and context. Understanding these shifts can help reveal how well multilingual models capture real-world language use, and where they fall short. It can also help humankind better understand our history and surroundings through language.
+This project focuses on semantic variation across languages in multilingual models. It aims to study how certain words, particularly polysemous or culturally significant ones, change their meaning depending on language and context. Understanding these shifts can help reveal how well multilingual models capture real-world language use, and where they fall short. It can also help humankind better understand our history and surroundings through language.
 
 ---
 
@@ -32,7 +32,7 @@ Some foundational papers for this include:
 
 3. **Chakravarti & Gonen (2023)** – *Understanding Cross-Lingual Semantic Shift with Contextualized Word Representations*  
    [https://arxiv.org/abs/2302.04127](https://arxiv.org/abs/2302.04127)  
-   Examines how multilingual models capture meaning shifts and alignment challenges in cross-lingual settings.
+   Examines how multilingual models understand cross-lingual meaning shifts and alignment challenges.
 
 Despite such advances, there remains limited analysis of cultural and contextual shifts in meaning, especially for abstract or socially complex terms.
 
@@ -48,7 +48,7 @@ Current multilingual models rely on the assumption that words with similar trans
 - **Cultural nuance**: Words that carry different associations in different societies (eg. *freedom*, *karma*, *family*).
 - **Contextual variation**: Words whose meaning changes depending on syntax, register or domain.
 
-There is a lack of research on how such words behave in multilingual embedding spaces. Most evaluations don’t test how these embeddings respond to cultural or contextual shifts.
+There is a lack of research on how such words behave in multilingual embedding spaces. Most evaluations do not test how these embeddings respond to cultural or contextual shifts.
 
 ---
 
@@ -119,10 +119,10 @@ To analyze how the meanings of words vary across different contexts and language
 
 This research aims to improve understanding of how multilingual language models capture meaning variation across contexts and cultures. It could contribute to:
 
-- **Better machine translation**: Especially for ambiguous or culturally nuanced terms.
+- **Better machine translation**: Especially for ambiguous or culturally varying terms.
 - **More accurate multilingual chatbots and assistants**: By grounding responses in context.
 - **Cross-lingual search engines**: With deeper semantic awareness.
-- **Language learning tools**: That reflect real-world usage and meaning shifts.
+- **Language learning tools**: That depict real-world usage and meaning shifts.
 
 By identifying limitations and patterns in current models, the project will help inform the design of future language technologies that are more context-aware, culturally adaptive, and robust. The analysis of these embeddings, derived from history and culture, will also draw appreciation for how each nation understands words and their emotions differently, and how our context affects our language.
 
