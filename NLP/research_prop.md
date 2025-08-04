@@ -104,12 +104,12 @@ To analyze how the meanings of words vary across different contexts and language
 
 | Week | Task Description                             |
 |------|-----------------------------------------------|
-| 1–2  | Literature review, finalize datasets          |
-| 3–4  | Embedding extraction and preprocessing        |
-| 5    | Initial visualizations and semantic tracking  |
-| 6    | Cross-lingual comparison and analysis         |
-| 7    | Documentation and result synthesis            |
-| 8    | Final report writing and project submission   |
+| 1–2  | Literature and dataset review          |
+| 3–4  | Embedding preprocessing        |
+| 5    | Initial visualizations and tracking  |
+| 6    | Cross-lingual analysis         |
+| 7    | Documentation and results            |
+| 8    | Final report submission   |
 
 ---
 
