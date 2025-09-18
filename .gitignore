@@ -8,9 +8,5 @@ DeepWeeds/labels
 FacialExpressions/best_model.h5
 ImageNet/87model.h5
 clustering/Clustering_Data.csv
-cnn/veggie_heap_testing
 cnn/veggie_heap_training
-DecisionTree/Threats (1).csv
 NN/Train
-computer vision/volleyball_match.mp4
-computer vision/VOLLEYBALL_OUTPUT (1).mp4
