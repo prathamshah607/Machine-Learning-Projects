@@ -508,9 +508,6 @@ Machine-Learning-Projects/
 ## Author Information
 
 **Author**: Pratham Shah  
-**Institution**: MIT Manipal, Computer Science Engineering '28  
-**Student ID**: 240905614  
-**Program**: Cryptonite Research AI Taskphase  
 
 **Repository Metrics**:
 - **Programming Languages**: Jupyter Notebook 100.0%
